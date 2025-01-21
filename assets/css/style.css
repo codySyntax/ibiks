@@ -1815,12 +1815,12 @@ button.bottom-top-button:hover {
 
 /* Hover behavior */
 .gallery-port:hover .gallery-shot {
-    animation: scrollUp 3s forwards; /* Scrolls up and stops at the desired position */
+    animation: scrollUp 7s forwards; /* Scrolls up and stops at the desired position */
 }
 
 /* Reset to original position */
 .gallery-port:not(:hover) .gallery-shot {
-    animation: scrollDown 5.0s forwards; /* Scrolls back down */
+    animation: scrollDown 7s forwards; /* Scrolls back down */
 }
 
 /* Scroll up keyframes */
