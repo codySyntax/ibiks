@@ -874,8 +874,9 @@
                         <h3 class="creative brand got">Got Ideas? <span> I've got the skills</span></h3>
                         <h3 class="visionary">"Interested in my services? Complete the contact form, and
                              I'll send you a personalized quote based on your specific needs.</h3>
-                        <form method="POST" action="send-contact.php">
+                        <form action="https://api.web3forms.com/submit" method="POST">
                             <div class="input-main">
+                                <input type="hidden" name="access_key" value="af7af1d2-e1be-4cdf-9348-91aedd5dab43">
                                 <div class="labal-input">
                                     <p class="labal">NAME*</p>
                                     <input type="text" placeholder="Your Full Name" name="YourName" autocomplete="off">
@@ -899,6 +900,7 @@
                                         autocomplete="off">
                                 </div>
                             </div>
+                            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                             <div class="download-btn">
                                 <a href="javascript:void(0);" type="submit" class="aryaBtn">
                                     Send Message <img src="assets/images/svg/right-arrow.svg" alt="right-arrow">
